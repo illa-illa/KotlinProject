@@ -12,4 +12,8 @@ class Student(val sno: Int, val grade: Int, name: String, age: Int) : Person(nam
     constructor() : this("", 0) {
 
     }
+
+    fun study(){
+        println("study")
+    }
 }
